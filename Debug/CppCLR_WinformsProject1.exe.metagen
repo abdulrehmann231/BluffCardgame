@@ -1,0 +1,37 @@
+  CppCLR_WinformsProject1.Form1.resources - Embedded, ContainedInManifestFile, 
+  CppCLR_WinformsProject1.Game.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CppCLR_WinformsProject1, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CppCLR_WinformsProject1.Game: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Collections.Generic.List`1[player]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[player] players : Public
+    Bluff game IsByValue : Public, InitOnly
+    Int32 current : Public
+    Int32 cards_on_table : Public
+    System.Collections.Generic.List`1[Card] Deck : Public
+    System.Collections.Generic.List`1[Card] player_cards : Public
+    System.Collections.Generic.List`1[Card] Table : Public
+    System.Collections.Generic.List`1[Card] Cards_being_played : Public
+    Int32 lastcards : Public
+    Int32 lastPlayed : Public
+    MyException err : Public
+Class CppCLR_WinformsProject1.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MyException err : Public

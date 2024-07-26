@@ -1,0 +1,5 @@
+D:\New folder (2)\repo\CppCLR_WinformsProject1\Debug\CppCLR_WinformsProject1.Form1.resources
+D:\New folder (2)\repo\CppCLR_WinformsProject1\Debug\CppCLR_WinformsProject1.vcxproj.GenerateResource.cache
+D:\New folder (2)\repo\CppCLR_WinformsProject1\Debug\CppCLR_WinformsProject1.exe
+D:\New folder (2)\repo\CppCLR_WinformsProject1\Debug\CppCLR_WinformsProject1.vcxproj.AssemblyReference.cache
+D:\New folder (2)\repo\CppCLR_WinformsProject1\Debug\CppCLR_WinformsProject1.Game.resources
